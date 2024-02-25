@@ -205,7 +205,7 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    @media screen and (max-width: 400px) {
+    @media screen and (min-width: 600px) {
         
     header, footer{
         background-color: var(--lime-green);
