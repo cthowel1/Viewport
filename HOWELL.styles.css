@@ -149,6 +149,9 @@ footer .icon{
     @keyframes icon-animation {
         0% { font-variation-settings: "TIME" 1; }
     }
+    @media (prefers-reduced-motion: reduce) {
+        .icon-animation {animation: none;}
+        }
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
 
